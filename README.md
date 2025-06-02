@@ -46,17 +46,29 @@ El archivo CSV generado por la extensión ahora presenta las siguientes columnas
 Para que la extensión funcione correctamente, asegúrate de que la estructura de tu proyecto sea la siguiente:
 
 maps-data-collector/
+
 ├── manifest.json
+
 ├── popup.html
+
 ├── popup.js
+
 ├── background.js
+
 ├── content.js
+
 ├── styles.css
+
 └── icons/
-├── icon16.png
-├── icon48.png
-├── icon128.png
-└── hack.jpg
+
+   ├── icon16.png
+
+   ├── icon48.png
+
+   ├── icon128.png
+
+   └── hack.jpg
+
 
 ### Paso 1: Crear la Estructura de Directorios
 
