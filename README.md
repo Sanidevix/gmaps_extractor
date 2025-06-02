@@ -1,5 +1,7 @@
-gmaps_extractor
+# gmaps_extractor
 Busca establecimientos en Google Maps y extrae información relevante (principalmente teléfonos) para organizar tus datos.
+
+-------------------------------------------------------------------------------------------------------------------------------------
 
 🚀 Características y Mejoras
 Esta extensión de Chrome ha sido diseñada para una extracción de datos más precisa y eficiente de Google Maps.
