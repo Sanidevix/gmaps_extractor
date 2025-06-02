@@ -16,14 +16,16 @@ Nombre del Establecimiento: El nombre oficial del lugar.
 Dirección: La dirección completa del establecimiento.
 Teléfono: El número de teléfono de contacto.
 Correo Electrónico: La dirección de correo electrónico (si está disponible).
-2. Precisión Mejorada del Scraping
+
+3. Precisión Mejorada del Scraping
 Algoritmos Robustos: Se emplean múltiples métodos para una detección más fiable de los elementos en la página:
 Búsqueda por palabras clave: Se buscan términos clave tanto en español como en inglés.
 Búsqueda por patrones de texto: Uso de expresiones regulares para identificar datos específicos.
 Selectores CSS Variados: Se utilizan diferentes selectores CSS para adaptarse a la estructura dinámica de Google Maps.
 Esperas Inteligentes: La extensión incorpora esperas adaptativas para asegurar que la página web cargue completamente todos sus elementos dinámicos antes de intentar extraer la información.
 Manejo de Errores Básico: Se ha implementado una gestión de errores mejorada para intentar devolver siempre alguna información, incluso si ocurren problemas durante la extracción.
-3. Estructura del CSV Actualizada
+
+4. Estructura del CSV Actualizada
 El archivo CSV generado por la extensión ahora presenta las siguientes columnas de forma clara:
 
 Consulta Original
@@ -63,6 +65,7 @@ icon16.png (16x16 píxeles)
 icon48.png (48x48 píxeles)
 icon128.png (128x128 píxeles)
 hack.jpg (para el logo)
+
 ⚙️ Funcionamiento Actualizado
 El flujo de trabajo de la extensión es el siguiente:
 
@@ -75,6 +78,7 @@ Finalmente, combina la información básica y detallada del primer resultado.
 Si Google Maps muestra directamente un establecimiento (sin lista de resultados):
 La extensión extrae todos los datos relevantes directamente de la página de detalle del establecimiento.
 Una vez extraídos, los datos se almacenan internamente y, cuando el proceso finaliza (o se indica), se descargan como un archivo CSV.
+
 ⚠️ Limitaciones y Consideraciones
 Es importante tener en cuenta las siguientes limitaciones y recomendaciones:
 
@@ -88,6 +92,7 @@ Mitigación de Bloqueos: Para un uso más robusto y a gran escala, se recomienda
 Implementar retrasos aleatorios entre las búsquedas para simular un comportamiento más humano.
 Limitar el número de búsquedas por sesión o por un período de tiempo.
 Considerar el uso de la API oficial de Google Maps Platform para proyectos serios y de gran volumen, ya que ofrece una solución más estable y conforme a los términos de servicio, aunque con costos asociados.
+
 🚀 Instalación y Prueba (Resumen)
 Las instrucciones para instalar y probar la extensión son las mismas que se mencionaron anteriormente:
 
