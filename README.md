@@ -1,6 +1,10 @@
 # `gmaps_extractor`
 
-Busca establecimientos en Google Maps y extrae información relevante (principalmente teléfonos) para organizar tus datos.
+Extensión de Google Chromer para buscas establecimientos en Google Maps y extrae información relevante (principalmente teléfonos) para organizar tus datos.
+
+NOTA: Esto forma parte de un proyecto de Scrapping Web, partiendo de la idea de **Google_Maps_AI_Scraper_2.5.0**
+
+https://outscraper.com/es/google-maps-scraper/
 
 ---
 
